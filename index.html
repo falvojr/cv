@@ -1,173 +1,263 @@
 <!DOCTYPE html>
-<!-- @falvojr: Reference article https://www.w3schools.com/howto/howto_website_create_resume.asp -->
-<!-- @falvojr: Useful link to use fontawesome (fa) icons: https://fontawesome.com/v4/icons/ -->
 <html lang="pt-BR">
-
   <head>
-    <title>Venilton FalvoJr</title>
-    
+    <title>André Lopes - CV Digital</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
     <style>
-      html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+      html, body, h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif;}
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+      /* Estilo para os cards em modo dark */
+      .dark-card {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+      }
+      a {
+        color: #FF9800;
+      }
+      a:hover {
+        color: #FFB74D;
+      }
+      /* Estilo para as barras de progresso */
+      .progress-bar {
+        background-color: #333;
+        border-radius: 999px;
+      }
+      .progress-bar-fill {
+        background-color: #FF9800;
+        padding: 3px 0;
+        border-radius: 999px;
+      }
     </style>
     
   </head>
-
-  <body class="w3-light-grey" cz-shortcut-listen="true">
+  <body>
   
-    <!-- Page Container -->
+    <!-- Container da Página -->
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
   
-      <!-- The Grid -->
+      <!-- Grade -->
       <div class="w3-row-padding">
   
-        <!-- Left Column -->
+        <!-- Coluna Esquerda -->
         <div class="w3-third">
+
+          <!-- Imagem de Perfil Responsiva -->
+          <div class="w3-container w3-center">
+            <img src="imagens/perfil.jpg" alt="Imagem de Perfil" class="w3-image w3-round-large" style="width:100%; max-width:250px;"><br><br>
+          </div>
   
-          <div class="w3-white w3-text-grey w3-card-4">
-            <!-- @falvojr: This container has been modified to not use a profile picture. -->
+          <div class="dark-card w3-card-4">
             <div class="w3-container">
-              <h2>Venilton FalvoJr</h2>
+              <h2>André Lopes</h2>
+              <p>Estudante de ADS | Embaixador DIO Expert | Alura ONE G8 | Ciência de Dados com Python | HTML | CSS | JavaScript | WP + Elementor</p>
             </div>
             <div class="w3-container">
-              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-indigo"></i>Líder Técnico na DIO</p>
-              <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-indigo"></i>Araraquara-SP, Brasil</p>
-              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-indigo"></i>falvojr@gmail.com</p>
-              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-indigo"></i>(16) 99721-8281</p>
-              <hr>
-  
-              <p class="w3-large">
-                <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-indigo"></i>Skills</b>
+              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large"></i>contato@agenciadigitalslz.com.br</p>
+              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large"></i>(98) 98741-7250</p>
+              <p>
+                <i class="fa fa-linkedin fa-fw w3-margin-right w3-large"></i>
+                <a href="https://www.linkedin.com/in/andre7lopes" target="_blank">linkedin.com/in/andre7lopes</a>
               </p>
-              <p>Java</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:100%">100%</div>
-              </div>
-              <p>Android</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
-              </div>
-              <p>Koltin</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:70%">70%</div>
-              </div>
-              <p>Spring Framework</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:70%">70%</div>
-              </div>
-              <br>
-  
-              <p class="w3-large w3-text-theme">
-                <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-indigo"></i>Idiomas</b>
+              <p>
+                <i class="fa fa-globe fa-fw w3-margin-right w3-large"></i>
+                <a href="https://www.github.com/agenciadigitalslz" target="_blank">github.com/agenciadigitalslz</a>
               </p>
-              <p>Português</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-indigo" style="height:24px;width:100%"></div>
+              <p>
+                <i class="fa fa-globe fa-fw w3-margin-right w3-large"></i>
+                <a href="https://www.agenciadigitalslz.com.br" target="_blank">agenciadigitalslz.com.br</a>
+              </p>
+              <hr>  
+              <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right"></i>Competências</b></p>
+              <p>Desenvolvimento Pessoal</p>
+              <div class="w3-round-xlarge progress-bar w3-small">
+                <div class="w3-container w3-center w3-round-xlarge progress-bar-fill" style="width:90%">90%</div>
               </div>
-              <p>Inglês</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-indigo" style="height:24px;width:60%"></div>
+              <p>Github</p>
+              <div class="w3-round-xlarge progress-bar w3-small">
+                <div class="w3-container w3-center w3-round-xlarge progress-bar-fill" style="width:80%">80%</div>
               </div>
-              <p>Espanhol</p>
-              <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-round-xlarge w3-indigo" style="height:24px;width:25%"></div>
+              <p>Front-end</p>
+              <div class="w3-round-xlarge progress-bar w3-small">
+                <div class="w3-container w3-center w3-round-xlarge progress-bar-fill" style="width:60%">60%</div>
+              </div>
+              <p>Introdução a Ciência de Dados</p>
+              <div class="w3-round-xlarge progress-bar w3-small">
+                <div class="w3-container w3-center w3-round-xlarge progress-bar-fill" style="width:80%">80%</div>
+              </div>
+              <p>Python (Em andamento)</p>
+              <div class="w3-round-xlarge progress-bar w3-small">
+                <div class="w3-container w3-center w3-round-xlarge progress-bar-fill" style="width:35%">35%</div>
+              </div>              
+              <p>Ciência de Dados (Em andamento)</p>
+              <div class="w3-round-xlarge progress-bar w3-small">
+                <div class="w3-container w3-center w3-round-xlarge progress-bar-fill" style="width:35%">35%</div>
               </div>
               <br>
             </div>
-          </div><br>
+          </div>
+          <br>
   
-          <!-- End Left Column -->
         </div>
   
-        <!-- Right Column -->
+        <!-- Coluna Direita -->
         <div class="w3-twothird">
     
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-terminal fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Sobre</h2>
-            <p>Doutorando na Universidade de São Paulo (USP), onde contribui junto ao Instituto de Ciências Matemáticas e de Computação (ICMC), campus de São Carlos. Possui 12 anos de experiência na área de desenvolvimento de software, com ênfase na análise, construção e arquitetura de sistemas Web e Mobile. Além disso, é certificado nas plataformas .NET (Microsoft), Java (Oracle) e Android (Google). Atualmente é Líder Técnico no time de Educação da DIO, onde é responsável por orquestrar os conteúdos educacionais da plataforma.</p>
-          </div>
-
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Experiências
+          <!-- Sobre -->
+          <div class="w3-container dark-card w3-card w3-margin-bottom">
+            <h2 class="w3-padding-16">
+              <i class="fa fa-user fa-fw w3-margin-right w3-xxlarge"></i>Sobre
             </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
-              <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2021 - <span class="w3-tag w3-indigo w3-round">Atual</span></h6>
-              <p>Planejar o roadmap dos conteúdos educacionais da plataforma, tendo em vista as principais tendências de mercado e necessidades das empresas parceiras. Além de garantir que as experiências de aprendizagem tenham total sinergia com a nossa metodologia educacional.</p>
-            </div>
+            <p>Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e sempre em busca de oportunidades nas áreas de Programação e TI. Minha experiência abrange desenvolvimento web, gerenciamento de bancos de dados MySQL e análise de dados. Atualmente, estou aprimorando minhas habilidades em Python, com foco em automação e análise de dados. Além disso, possuo experiência na coordenação de cursos em Educação a Distância (EAD), onde desenvolvi competências em gestão de projetos educacionais e liderança de equipes multidisciplinares.</p>
           </div>
   
-          <div class="w3-container w3-card w3-white">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Educação
+          <!-- Experiência Profissional -->
+          <div class="w3-container dark-card w3-card w3-margin-bottom">
+            <h2 class="w3-padding-16">
+              <i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge"></i>Experiência Profissional
             </h2>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Digital Innovation One (DIO)</b></h5>
-              <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Março 2021 - <span class="w3-tag w3-indigo w3-round">Atual</span></h6>
-              <p>
-                Maior plataforma de educação aberta em TI da América Latina, com mais 1 milhão de usuários. 
-                A DIO possui parcerias com algumas das empresas mais inovadoras do mundo, proporcionando experiências 
-                de ensino imersivas e com foco em empregabilidade. Nesse contexto, seguem meus principais certificados:
-              </p>
-              <ul>
-                <li><a href="https://www.dio.me/certificate/762101D2" target="_blank">Formação: Programação Reativa com Spring WebFlux (36h)</a></li>
-                <li><a href="https://www.dio.me/certificate/07041B99" target="_blank">Curso: Desenvolvimento Mobile Nativo Para Android (1h)</a></li>
-                <li><a href="https://www.dio.me/certificate/F12AC30B" target="_blank">Curso: Componentes, Layouts e UI/UX Em Apps Android (3h)</a></li>
-                <li><a href="https://www.dio.me/certificate/3FB20BF1" target="_blank">Curso: Java e Kotlin Juntos!? Construindo Apps Android (3h)</a></li>
-              </ul>
+              <h5><b>Coordenador de Ensino à Distância | SETEBAN EAD</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan/2024 - <span class="w3-tag w3-round" style="background-color:#FF9800;">Atual</span>
+              </h6>
+              <p>- Gerenciamento de conteúdos e inserção de materiais na plataforma EAD.</p>
+              <p>- Organização dos cursos para garantir navegação intuitiva e experiência eficiente, aumentando o engajamento em 30%.</p>
+              <p>- Supervisão e inspeção das atividades avaliativas, assegurando critérios de avaliação.</p>
+              <p>- Coordenação do suporte aos alunos, reduzindo o tempo médio de resposta em 20%.</p>
+              <p>- Gestão de processos administrativos para otimizar o ensino a distância.</p>
               <hr>
             </div>
             <div class="w3-container">
-              <h5 class="w3-opacity"><b>Universidade de São Paulo (USP)</b></h5>
-              <h6 class="w3-text-indigo"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dezembro 2018 - Agosto 2023</h6>
-              <p>Doutorando em Engenharia de Computação com foco em acessibildiade de conteúdos educacionais.</p>
-            </div>
-          </div>
-
-          <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i class="fa fa-git fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Projetos
-            </h2>
-            <div class="w3-container">
-              <h6 class="w3-text-indigo">
-                <i class="fa fa-github fa-fw w3-margin-right"></i>
-                <a href="https://github.com/falvojr/copa-2022-android" target="_blank">falvojr/copa-2022-android</a>
+              <h5><b>Gerente de Projetos | Agência Digital SLZ</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan/2023 - <span class="w3-tag w3-round" style="background-color:#FF9800;">Atual</span>
               </h6>
-              <p>App Android Nativo utilizando a arquitetura MVVM com Kotlin e diversas features do Android Jetpack.</p>
+              <p>- Liderança e gerenciamento de projetos de desenvolvimento web (sites institucionais, plataformas EAD e e-commerces).</p>
+              <p>- Planejamento estratégico, execução e acompanhamento de projetos, garantindo entregas nos prazos e orçamentos.</p>
+              <p>- Desenvolvimento de negócios, identificando oportunidades e elaborando propostas comerciais.</p>
+              <p>- Implementação de práticas avançadas com WordPress, Elementor e WooCommerce.</p>
+              <p>- Técnicas avançadas de SEO, aumentando em 40% o tráfego orgânico dos sites.</p>
               <hr>
             </div>
             <div class="w3-container">
-              <h6 class="w3-text-indigo">
-                <i class="fa fa-gitlab fa-fw w3-margin-right"></i>
-                <a href="https://gitlab.com/denilsonbonatti/kubernetes-projeto2-dio" target="_blank">denilsonbonatti/kubernetes-projeto2-dio</a>
+              <h5><b>Supervisor de Segurança e T.I | Malka Vigilância Privada</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2023
               </h6>
-              <p>Repositório no GitLab com um pipeline configurado em Kubernetes.</p>
+              <p>- Gerenciamento de equipes e implementação de sistemas de controle e prevenção de perdas.</p>
+              <p>- Coordenação de operações de segurança e desenvolvimento de procedimentos operacionais.</p>
+              <p>- Análise de dados para elaboração de relatórios e medidas preventivas.</p>
+              <p>- Redução de incidentes em 25% e diminuição de ocorrências em 15% através de treinamentos.</p>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5><b>Professor de Montagem e Manutenção de Computadores</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2014
+              </h6>
+              <p>- Ministração de aulas teóricas e práticas sobre hardware, software e manutenção de computadores.</p>
+              <p>- Coordenação de atividades pedagógicas para capacitar jovens e promover inclusão digital.</p>
             </div>
           </div>
   
-          <!-- End Right Column -->
+          <!-- Formação Acadêmica -->
+          <div class="w3-container dark-card w3-card w3-margin-bottom">
+            <h2 class="w3-padding-16">
+              <i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge"></i>Formação Acadêmica
+            </h2>
+            <div class="w3-container">
+              <h5><b>Análise e Desenvolvimento de Sistemas | UEMA</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Ago/2024 - Dez/2026
+              </h6>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5><b>Data Science | Alura Oracle Next One (G8)</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan/2025 - Dez/2025
+              </h6>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5><b>Ciência de Dados com Python | DIO - Santander Bootcamp</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan/2025 - Fev/2025
+              </h6>
+              <hr>
+            </div>
+            <div class="w3-container">
+              <h5><b>Dio Campus Expert - Programa de Embaixador Universitário</b></h5>
+              <h6>
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Fev/2025
+              </h6>
+            </div>
+          </div>
+  
+          <!-- Certificações -->
+          <div class="w3-container dark-card w3-card w3-margin-bottom">
+            <h2 class="w3-padding-16">
+              <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Certificações
+            </h2>
+            <div class="w3-container">
+              <p>- Análise Avançada de Imagens e Texto com IA na AWS (Concluído em Fev/2025)</p>
+              <p>- Desenvolvimento Pessoal | Alura (Concluído em Jan/2025)</p>
+              <p>- Introdução Ciência de Dados | Santander Open Academy (Concluído em Jan/2025)</p>
+              <p>- Certificado de Web Design | Microlins (Concluído em 2010)</p>
+              <p>- Manutenção de Computadores | Microlins (Concluído em 2004)</p>
+            </div>
+          </div>
+  
+          <!-- Habilidades Técnicas -->
+          <div class="w3-container dark-card w3-card w3-margin-bottom">
+            <h2 class="w3-padding-16">
+              <i class="fa fa-code fa-fw w3-margin-right w3-xxlarge"></i>Habilidades Técnicas
+            </h2>
+            <div class="w3-container">
+              <p><b>Linguagens:</b> Python (iniciante)</p>
+              <p><b>Bancos de Dados:</b> MySQL, SQL Server, PostgreSQL</p>
+              <p><b>Ferramentas:</b> Visual Studio Code, cPanel</p>
+              <p><b>Desenvolvimento Web:</b> WordPress, Elementor, WooCommerce, E-learning</p>
+              <p><b>Versionamento:</b> Git, GitHub</p>
+            </div>
+          </div>
+  
+          <!-- Soft Skills -->
+          <div class="w3-container dark-card w3-card w3-margin-bottom">
+            <h2 class="w3-padding-16">
+              <i class="fa fa-heart fa-fw w3-margin-right w3-xxlarge"></i>Soft Skills
+            </h2>
+            <div class="w3-container">
+              <p>- Pensamento analítico e resolução de problemas</p>
+              <p>- Tomada de decisão baseada em dados</p>
+              <p>- Trabalho em equipe e comunicação eficaz</p>
+              <p>- Proatividade e aprendizado contínuo</p>
+              <p>- Organização e gestão de tempo</p>
+            </div>
+          </div>
+  
         </div>
-  
-        <!-- End Grid -->
+        <!-- Fim da Coluna Direita -->
       </div>
-  
-      <!-- End Page Container -->
+      <!-- Fim da Grade -->
     </div>
+    <!-- Fim do Container da Página -->
   
-    <footer class="w3-container w3-indigo w3-center w3-margin-top">
+    <footer class="w3-container w3-center w3-margin-top" style="background-color: #1e1e1e;">
       <p>Minhas Redes Sociais</p>
-      <a href="https://github.com/falvojr" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-      <a href="https://www.linkedin.com/in/falvojr" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://github.com/agenciadigitalslz" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+      <a href="https://www.linkedin.com/in/andre7lopes" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </footer>
   
   </body>
-
 </html>
