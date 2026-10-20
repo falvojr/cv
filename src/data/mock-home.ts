@@ -115,23 +115,23 @@ export const homeContent: Record<Language, HomeContent> = {
     metrics: [
       {
         value: '2 years',
-        label: 'Market experience',
-        description: 'Work across data analysis, machine learning, and software development in companies from different industries.',
+        label: 'Industry experience',
+        description: 'Experience in data analysis, machine learning, and software development across companies in different industries.',
       },
       {
         value: '2 companies',
-        label: 'Experience: FATECOINS & BASF',
-        description: 'Experience at a data consultancy and a chemical-sector multinational, with high-impact deliveries at both.',
+        label: 'Experience at FATECOINS & BASF',
+        description: 'Experience at a chemical-sector multinational, delivering high-impact work.',
       },
       {
         value: 'ML + Dev',
-        label: 'Dual specialty',
-        description: 'A combination of applied machine learning with back-end and fullstack development for real products.',
+        label: 'Dual expertise',
+        description: 'Combining applied machine learning with back-end and full-stack development to build real products.',
       },
       {
-        value: 'Fullstack',
+        value: 'Full-stack',
         label: 'Technical versatility',
-        description: 'Deep expertise in back-end, databases, and architecture, with strong front-end experience as well.',
+        description: 'Deep expertise in back-end development, databases, and architecture, with experience in front-end development as well.',
       },
     ],
     timeline: [
@@ -140,12 +140,12 @@ export const homeContent: Record<Language, HomeContent> = {
         company: 'FATECOINS (previous experience)',
         role: 'Software Developer Analyst',
         summary:
-          'Previous experience at FATECOINS from 2024 to 2026 as a fullstack developer, with strongest expertise in back-end, databases, and architecture. On the front end, the experience of working side by side with developers at BASF brought the fluency needed to connect endpoints and deliver complete software.',
+          'Previous experience at FATECOINS from 2024 to 2026 as a full-stack developer, with a strong focus on back-end development, databases, and architecture. Working side by side with BASF developers on the front end also strengthened my ability to connect endpoints and ensure complete software delivery.',
         technologies: ['Python', 'FastAPI', 'Next.js', 'Vue.js', 'PostgreSQL', 'MySQL', 'Apache Airflow'],
         results: [
-          'Scalable architecture separating the back end from the analysis environment running Apache Airflow',
-          'Isolated data pipeline so the back end receives only the optimized result',
-          'Fullstack development with direct integration between the front end and API',
+          'Scalable architecture separating the back end from the Apache Airflow analysis environment',
+          'Isolated data pipeline ensuring that the back end receives only the optimized result',
+          'Full-stack development with direct integration between the front end and the API',
         ],
       },
       {
@@ -153,13 +153,13 @@ export const homeContent: Record<Language, HomeContent> = {
         company: 'BASF',
         role: 'Software Developer Analyst',
         summary:
-          'Short-term contract to develop a single internal machine learning project at a multinational. The work focused mainly on the back end, taking the project through completion, including data integration, model testing, and simulations.',
+          'During a short-term contract, I developed a single internal machine learning project for a multinational company. The work focused primarily on back-end development and took the project through to completion, including data integration, model testing, and simulations.',
         technologies: ['Python', 'Machine Learning', 'REST API', 'SQL Server', 'Back-end'],
         results: [
-          'Integrated back end for consuming corporate data through custom software',
+          'Integrated back end that consumes corporate data through custom software',
           'ML models (Decision Tree, Random Forest) tested with simulations before real-world application',
           'Daily collaboration with a front-end developer to ensure complete integration',
-          'Project delivered in full, with the contract ending after the scope was completed',
+          'Project delivered in full, with the contract ending once the scope was complete',
         ],
       },
     ],
@@ -167,21 +167,21 @@ export const homeContent: Record<Language, HomeContent> = {
       {
         name: 'Profile Classification for a Large Institution',
         description:
-          'Machine learning model for classifying profiles (engaged vs. churned) at a large national religious institution. Confidential project — the focus was building data pipelines and evaluating predictive models.',
+          'Machine learning model for classifying profiles (engaged vs. churned) at a large national institution. The focus was on building data pipelines and evaluating predictive models.',
         stack: ['Python', 'Machine Learning', 'Decision Tree', 'Feature Engineering', 'Data Pipeline'],
-        impact: 'Enabled the institution to anticipate behaviors and target retention actions using data.',
+        impact: 'Enabled the institution to anticipate behavior and target data-driven retention actions.',
       },
       {
         name: 'Industrial Resource Optimization with ML',
         description:
-          'Internal project at a chemical-sector multinational to optimize raw material use without sacrificing quality. Back-end development connected endpoints to corporate data, with Decision Tree and Random Forest model testing and simulations before real-world application.',
+          'Internal project for a chemical-sector multinational to optimize raw material use without sacrificing quality. Back-end development integrated endpoints with corporate data, while Decision Tree and Random Forest models were tested through simulations before real-world application.',
         stack: ['Python', 'FastAPI', 'Machine Learning', 'Random Forest', 'SQL Server', 'REST API'],
         impact: 'Scientists could simulate and validate formulations before using physical resources, reducing costs.',
       },
       {
-        name: 'Fullstack AI Platform for Business Analysis',
+        name: 'Full-Stack AI Platform for Business Analysis',
         description:
-          'Complete web application with front end, back end, and database, integrating artificial intelligence to analyze customer data and generate automated feedback with improvement suggestions for day-to-day business.',
+          'Complete web application with a front end, back end, and database, integrating artificial intelligence to analyze customer data and generate automated insights and feedback with suggestions for improving day-to-day operations.',
         stack: ['Next.js', 'FastAPI', 'PostgreSQL', 'Python', 'AI/ML', 'Apache Airflow'],
         impact: 'Clients receive actionable insights about their own business without needing technical knowledge.',
       },
@@ -205,7 +205,7 @@ export const homeContent: Record<Language, HomeContent> = {
       },
       {
         category: 'Data Engineering',
-        items: ['Apache Airflow', 'ETL', 'Isolated Pipelines', 'Flow Optimization'],
+        items: ['Apache Airflow', 'ETL', 'Isolated Pipelines', 'Workflow Optimization'],
       },
       {
         category: 'Methodologies',
